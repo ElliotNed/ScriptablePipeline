@@ -15,7 +15,7 @@ public partial class CameraRenderer
 
     static ShaderTagId supportedShaderTagId = new ShaderTagId("SRPDefaultUnlit"); //we only support unlit shaders
 
-    public void Render(ScriptableRenderContext context, Camera camera)
+    public void Render(ScriptableRenderContext context, Camera camera, bool useGpuInstancing, bool useDynamicBatching)
     {
         this.context = context;
         this.camera = camera;
@@ -27,18 +27,22 @@ public partial class CameraRenderer
             return;
 
         Setup();
-        DrawVisibleGeometry();
+        DrawVisibleGeometry(useGpuInstancing, useDynamicBatching);
         DrawUnspportedShaders();
         DrawGizmos();
         Submit();
     }
 
-    private void DrawVisibleGeometry()
+    private void DrawVisibleGeometry(bool useGpuInstancing, bool useDynamicBatching)
     {
         //render opaque
         var filteringSettings = new FilteringSettings(RenderQueueRange.opaque);
         var sortingSettings = new SortingSettings(camera) { criteria = SortingCriteria.CommonOpaque };
-        var drawingSettings = new DrawingSettings(supportedShaderTagId, sortingSettings);
+        var drawingSettings = new DrawingSettings(supportedShaderTagId, sortingSettings)
+        {
+            enableInstancing = useGpuInstancing,
+            enableDynamicBatching = useDynamicBatching
+        };
         context.DrawRenderers(cullingResults, ref drawingSettings, ref filteringSettings);
 
         context.DrawSkybox(camera);
