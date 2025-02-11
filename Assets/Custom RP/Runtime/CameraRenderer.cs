@@ -6,6 +6,7 @@ using UnityEngine.Rendering;
 public partial class CameraRenderer
 {
     Camera camera;
+    Lighting lighting = new Lighting();
     ScriptableRenderContext context;
 
     const string bufferName = "Render Camera";
@@ -28,6 +29,7 @@ public partial class CameraRenderer
             return;
 
         Setup();
+        lighting.Setup(context);
         DrawVisibleGeometry(useGpuInstancing, useDynamicBatching);
         DrawUnspportedShaders();
         DrawGizmos();
