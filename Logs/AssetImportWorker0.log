@@ -1735,3 +1735,779 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 293.442222 seconds.
+  path: Assets/Custom RP/Shaders/UnlitPass 1.hlsl
+  artifactKey: Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/Shaders/UnlitPass 1.hlsl using Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f3c667e71e8388c3eaea4d02a0f110f2') in 0.009451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.282667 seconds.
+  path: Assets/Custom RP/Shaders/LitPass.hlsl
+  artifactKey: Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/Shaders/LitPass.hlsl using Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'fa90b8d6d122284fbe56c3ada233e77c') in 0.000653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 64.920011 seconds.
+  path: Assets/Custom RP/Shaders/LitPass.hlsl
+  artifactKey: Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/Shaders/LitPass.hlsl using Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '44112ed920eb56f9961b4b0a22c6ba49') in 0.000797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.294809 seconds.
+  path: Assets/Custom RP/Shaders/Unlit.shader
+  artifactKey: Guid(1efede83905d0514a9ed09ae23fc903d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/Shaders/Unlit.shader using Guid(1efede83905d0514a9ed09ae23fc903d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '59f3081026843ba36a3ebd896a1acad9') in 0.000642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.010538 seconds.
+  path: Assets/Custom RP/Shaders/Unlit 1.shader
+  artifactKey: Guid(97c59f2141cf46c4087bdd7aba441ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/Shaders/Unlit 1.shader using Guid(97c59f2141cf46c4087bdd7aba441ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7a5acf57a217f81d53b3b16924012663') in 0.002025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.653183 seconds.
+  path: Assets/Custom RP/Shaders/Lit.shader
+  artifactKey: Guid(97c59f2141cf46c4087bdd7aba441ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/Shaders/Lit.shader using Guid(97c59f2141cf46c4087bdd7aba441ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '29eb6485bcaeeeecb292659448f43173') in 0.001054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 204.780755 seconds.
+  path: Assets/Custom RP/Runtime/CameraRenderer.cs
+  artifactKey: Guid(04e6c180b3444d240a08826467f1a017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/Runtime/CameraRenderer.cs using Guid(04e6c180b3444d240a08826467f1a017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '45f4fb9e1430a09ffe37a1f6e538b2e9') in 0.000952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.252 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 603ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (88ms)
+		LoadAssemblies (137ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (351ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (198ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 907 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (335.6 KB). Loaded Objects now: 1506.
+Memory consumption went from 75.4 MB to 75.1 MB.
+Total: 2.269100 ms (FindLiveObjects: 0.090900 ms CreateObjectMapping: 0.014200 ms MarkObjects: 2.027200 ms  DeleteObjects: 0.136100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 223.849989 seconds.
+  path: Assets/Content/Material/Opaque.mat
+  artifactKey: Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Material/Opaque.mat using Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9eb3fc48cd2e268a08417e33e40f27c2') in 0.058239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.518352 seconds.
+  path: Assets/Content/Material/Opaque.mat
+  artifactKey: Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Material/Opaque.mat using Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd8289fed123ea018b8fc632eb658c2a4') in 0.042255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.745430 seconds.
+  path: Assets/Scenes/L3Lighthing.unity
+  artifactKey: Guid(fb69251c7f9f032488b8e6bbb4197e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/L3Lighthing.unity using Guid(fb69251c7f9f032488b8e6bbb4197e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '299bcad1117cfa58d4ac8d91b1d4c846') in 0.000769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.647168 seconds.
+  path: Assets/Scenes/L3Lighting.unity
+  artifactKey: Guid(fb69251c7f9f032488b8e6bbb4197e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/L3Lighting.unity using Guid(fb69251c7f9f032488b8e6bbb4197e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '01a892dd0951288aa2fb1debfac96520') in 0.000389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.164757 seconds.
+  path: Assets/Scenes/L1SrpSetup.unity
+  artifactKey: Guid(386d550e3c74d4047aa3523e8f43f682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/L1SrpSetup.unity using Guid(386d550e3c74d4047aa3523e8f43f682) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4976ddfd98fee28d59986a5b8aefc2cc') in 0.000366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.563123 seconds.
+  path: Assets/Scenes/Lesson2.unity
+  artifactKey: Guid(3e73217eba7caed428eea68b5c9f3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lesson2.unity using Guid(3e73217eba7caed428eea68b5c9f3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9de1b562d0e288d70067a2b28a3f6d91') in 0.000410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.859560 seconds.
+  path: Assets/Scenes/L2Shader.unity
+  artifactKey: Guid(3e73217eba7caed428eea68b5c9f3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/L2Shader.unity using Guid(3e73217eba7caed428eea68b5c9f3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2d58e1ff8643321bed8143d88385b7ad') in 0.000362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.352124 seconds.
+  path: Assets/Scenes/SrpSetupL1.unity
+  artifactKey: Guid(386d550e3c74d4047aa3523e8f43f682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SrpSetupL1.unity using Guid(386d550e3c74d4047aa3523e8f43f682) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '88b095876b4e670a2cc1a3152cbb8240') in 0.000435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.680938 seconds.
+  path: Assets/Scenes/ShaderL2.unity
+  artifactKey: Guid(3e73217eba7caed428eea68b5c9f3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ShaderL2.unity using Guid(3e73217eba7caed428eea68b5c9f3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a7315de7aab748a15aa47964047b8f04') in 0.000428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.039457 seconds.
+  path: Assets/Scenes/LightingL3.unity
+  artifactKey: Guid(fb69251c7f9f032488b8e6bbb4197e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LightingL3.unity using Guid(fb69251c7f9f032488b8e6bbb4197e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ce602555e47329f476bb17f683e6f61d') in 0.000392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.762880 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2418d44e161e3ce2e8daeaa5c00c20e4') in 0.000468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 815.873966 seconds.
+  path: Assets/Content/Material/Opaque.mat
+  artifactKey: Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Material/Opaque.mat using Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Shader error in 'Custom RP/Lit': syntax error: unexpected token '}' at RP/Shaders/LitPass.hlsl(20) (on d3d11)
+
+Compiling Subshader: 0, Pass: <Unnamed Pass 0>, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _CLIPPING
+Shader error in 'Custom RP/Lit': syntax error: unexpected token '}' at RP/Shaders/LitPass.hlsl(20) (on d3d11)
+
+Compiling Subshader: 0, Pass: <Unnamed Pass 0>, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _CLIPPING
+ -> (artifact id: '712950b60d7f3fe9d5a2b5ec67acc95f') in 0.039047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 612.591629 seconds.
+  path: Assets/Content/Material/Opaque.mat
+  artifactKey: Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Material/Opaque.mat using Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Shader error in 'Custom RP/Lit': Did not find shader kernel 'LitPassVertex' to compile at line 24 (on d3d11)
+
+Compiling Subshader: 0, Pass: <Unnamed Pass 0>, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _CLIPPING
+Shader error in 'Custom RP/Lit': Did not find shader kernel 'LitPassFragment' to compile at line 24 (on d3d11)
+
+Compiling Subshader: 0, Pass: <Unnamed Pass 0>, Fragment program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _CLIPPING
+Shader error in 'Custom RP/Lit': Did not find shader kernel 'LitPassVertex' to compile at line 24 (on d3d11)
+
+Compiling Subshader: 0, Pass: <Unnamed Pass 0>, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _CLIPPING
+ -> (artifact id: 'cad80edc3941cc4d48d703ad3e4bbe49') in 0.023074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.116710 seconds.
+  path: Assets/Custom RP/Shaders/LitPass.hlsl
+  artifactKey: Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/Shaders/LitPass.hlsl using Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '18902c3ce97f74ab1c0051a917058b22') in 0.000844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.514030 seconds.
+  path: Assets/Custom RP/Shaders/LitPass.cs
+  artifactKey: Guid(0ba1bcc56a7657b4d8420461639119b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/Shaders/LitPass.cs using Guid(0ba1bcc56a7657b4d8420461639119b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5786d7f268b89cd20dd6b26ed141d439') in 0.000370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.245 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.296 seconds
+Domain Reload Profiling: 541ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (145ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (297ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 908 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6 unused Assets / (309.6 KB). Loaded Objects now: 1513.
+Memory consumption went from 75.5 MB to 75.2 MB.
+Total: 2.161800 ms (FindLiveObjects: 0.133300 ms CreateObjectMapping: 0.019900 ms MarkObjects: 1.917700 ms  DeleteObjects: 0.089800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/LitPass.cs: 3898c881aaf2062fae8599d0f9e2c8f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: b6eb7762b6241ce829c6cfea1ffbb969 -> a949dcaefcfb6eb57120be55337c8fdb
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.265 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.372 seconds
+Domain Reload Profiling: 636ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (88ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (372ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (215ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 907 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (309.6 KB). Loaded Objects now: 1515.
+Memory consumption went from 75.4 MB to 75.1 MB.
+Total: 2.197100 ms (FindLiveObjects: 0.098100 ms CreateObjectMapping: 0.014500 ms MarkObjects: 1.992500 ms  DeleteObjects: 0.091600 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/LitPass.cs: 3898c881aaf2062fae8599d0f9e2c8f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46.553071 seconds.
+  path: Assets/Custom RP/Shaders/LitPass.hlsl
+  artifactKey: Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/Shaders/LitPass.hlsl using Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c4508836903e05d045c54360b6df341e') in 0.011722 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.501740 seconds.
+  path: Assets/Custom RP/Shaders/LitPass.hlsl
+  artifactKey: Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/Shaders/LitPass.hlsl using Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4e8e8cde00efd4525925f3b73d0e821f') in 0.001111 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1132.249121 seconds.
+  path: Assets/Custom RP/Shaders/LitPass.hlsl
+  artifactKey: Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/Shaders/LitPass.hlsl using Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f2f16c0e8ea774aab72411dea09f965a') in 0.000820 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.212 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.290 seconds
+Domain Reload Profiling: 502ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (71ms)
+		LoadAssemblies (116ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (290ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (175ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (25ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 951 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (309.7 KB). Loaded Objects now: 1563.
+Memory consumption went from 76.1 MB to 75.8 MB.
+Total: 2.182200 ms (FindLiveObjects: 0.117500 ms CreateObjectMapping: 0.016800 ms MarkObjects: 1.958300 ms  DeleteObjects: 0.088900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/RiderAssetPostprocessor.cs: e95044eb94149eee30f5192e36c02104 -> 
+  custom:scripting/monoscript/fileName/SerializableVersion.cs: 66cf30c0372dc35aea960f71af56ff8a -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RiderInitializer.cs: d44ce07d40dcd4d066b6c1c8d08f3519 -> 
+  custom:scripting/monoscript/fileName/TestsCallback.cs: 420027d2a6ccaf7376f849b0f965edcd -> 
+  custom:scripting/monoscript/fileName/ProjectPart.cs: e09789f5d21ec839c23f3a2c8c340a5a -> 
+  custom:scripting/monoscript/fileName/TestEvent.cs: ff94f6973aa3f0db280f3ed0b7577e48 -> 
+  custom:scripting/monoscript/fileName/SolutionGuidGenerator.cs: 39a21c4f5e351b9b4a2916e800641a4a -> 
+  custom:scripting/monoscript/fileName/IFileIO.cs: d1715877724f6e7813b95bae6fbc24d5 -> 
+  custom:scripting/monoscript/fileName/PackageManagerTracker.cs: 651bbc6653e509037fd83f80aa48fad7 -> 
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: ad99001a96dac276206e089b138a3695 -> 214ca3c28296f47a7d19f1fd999fc81d
+  custom:scripting/monoscript/fileName/RiderScriptEditorDataPersisted.cs: 93e7c36b8be60b7055550adb6ace534f -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/RiderPathUtil.cs: a77167e74e3a3d01856e2c8265c09e64 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/RiderMenu.cs: a430c0ff873704a92fbd3fa96f173c8d -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 5210529ddc67cdb852122f447527c528 -> 79a56fbd4fb93531a5e76fae2fee1660
+  custom:scripting/monoscript/fileName/EditorPluginInterop.cs: 087796556f1ed2025e28209e52d82ccc -> 
+  custom:scripting/monoscript/fileName/RiderDebuggerProvider.cs: 678aab743b360488ecff56faa503ec8d -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorData.cs: fb9aed0c9d95878995d450a00d549f78 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/LitPass.cs: 3898c881aaf2062fae8599d0f9e2c8f4 -> 
+  custom:scripting/monoscript/fileName/Discovery.cs: 2b1006b9be47307c73378eaafc98b6fb -> 2653aab1b250aaf4e3b996846f31c100
+  custom:scripting/monoscript/fileName/SyncTestRunCallback.cs: 0f406f4b09f3b7bd1bfd8f867df2e978 -> 
+  custom:scripting/monoscript/fileName/CallbackInitializer.cs: b6cad195ed4890ee7aed8c4de2807157 -> 
+  custom:scripting/monoscript/fileName/RiderTestRunner.cs: b9ea3ff0565ae2955ea8f15dd6e578d4 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunEventsHandler.cs: 9ebe337aca2d71ac02fccc5c886e0668 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/RiderDebugLinkXmlProcessor.cs: 099ca395a105c6ac1743d631f5230607 -> 
+  custom:scripting/monoscript/fileName/StringUtils.cs: 2be5fb51e6f0660c955416f4d8f6f7ad -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CommandLineParser.cs: 25c8ce1c1ecf3aba3903da1187b88166 -> 
+  custom:scripting/monoscript/fileName/LinkXmlInstaller.cs: 3dee13f8f8e266475c77d4ab15dbe018 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditor.cs: 4ddd2581343451de6f696adaf8c0958f -> 
+  custom:scripting/monoscript/fileName/FileIOProvider.cs: 304525d180d2b661ce338fc8a3225752 -> c6be7d53b71e2f5ee2ecc596b7a7eb95
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PluginSettings.cs: 4ee82f9c59f87f1dece05e6b9763c365 -> 
+  custom:scripting/monoscript/fileName/LastWriteTracker.cs: c78bd5b4fa28ac60ca7ed50f9c2b99d2 -> 
+  custom:scripting/monoscript/fileName/FileSystemUtil.cs: 3a1d37ca0015bdfbd542c903cf738043 -> 
+  custom:scripting/monoscript/fileName/StringBuilderExtensions.cs: 14a3bca92eed52569c50d58813f48a9b -> 
+  custom:scripting/monoscript/fileName/IGenerator.cs: 7460422a7cf0a449df86606b185ffb0e -> 
+  custom:scripting/monoscript/fileName/IAssemblyNameProvider.cs: 005dc9d9c07dc825fea94e0fbc841e20 -> 
+  custom:scripting/precompiled-assembly-types:JetBrains.Rider.PathLocator: cc0f6b5fd89737b9c88f7fff1881167a -> 
+  custom:scripting/monoscript/fileName/LibcNativeInterop.cs: 77c1db6bef2e1063dc874463b520ed18 -> 
+  custom:scripting/monoscript/fileName/CallbackData.cs: b15b13425eedd78fb5c4fc4930a9e8b4 -> 
+  custom:scripting/monoscript/fileName/StartUpMethodExecutor.cs: 45cc23141d36926881d69e4d2f8950c7 -> 
+  custom:scripting/monoscript/fileName/RiderStyles.cs: 871a958d95b29e48af876a5d411c626a -> 
+  custom:scripting/monoscript/fileName/GUIDProvider.cs: cdd3f47e4fe593d2dfdf9915fa537e3f -> e95f79fad3d1354cc56eebd7db9ee6a3
+  custom:scripting/precompiled-assembly-types:Unity.Rider.Editor: 332fda7feca3dc3cf0d3d930da452a26 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IGUIDGenerator.cs: bad2c2e3b2dbec33c36bdfd6fc903e19 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 127.204554 seconds.
+  path: Assets/Custom RP/Shaders/LitPass.hlsl
+  artifactKey: Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/Shaders/LitPass.hlsl using Guid(64d0810fac6307e48a823d78817618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5b883dc732f951b6f2d26d36ad99d76f') in 0.008522 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 220.993668 seconds.
+  path: Assets/Content/Material/Opaque.mat
+  artifactKey: Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Material/Opaque.mat using Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b5f58f4c4c4ca8ecdbe100593aad7595') in 0.083242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 220.843704 seconds.
+  path: Assets/Content/Material/Opaque.mat
+  artifactKey: Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Material/Opaque.mat using Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b4ab03636c1c8843496ae31a58d34017') in 0.043778 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 149.285953 seconds.
+  path: Assets/Content/Material/Opaque.mat
+  artifactKey: Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Material/Opaque.mat using Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '42d578920219128cbe2414c7f830cdad') in 0.041579 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 748.474339 seconds.
+  path: Assets/Custom RP/ShaderLibrary/UnityInput 1.hlsl
+  artifactKey: Guid(1fd56fa0f91969849abf7f275c4cb6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/UnityInput 1.hlsl using Guid(1fd56fa0f91969849abf7f275c4cb6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '66b5406cf2335c6a8a8e6e94e27d7eb2') in 0.000904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.215794 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Surface.hlsl
+  artifactKey: Guid(1fd56fa0f91969849abf7f275c4cb6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Surface.hlsl using Guid(1fd56fa0f91969849abf7f275c4cb6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '939c371645f20e459851a0af3ddee926') in 0.000659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 156.122474 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Surface.hlsl
+  artifactKey: Guid(1fd56fa0f91969849abf7f275c4cb6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Surface.hlsl using Guid(1fd56fa0f91969849abf7f275c4cb6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '233db60fb3b3648944bbc1b295c008ef') in 0.000962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 169.058436 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Surface 1.hlsl
+  artifactKey: Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Surface 1.hlsl using Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e6b7425797a9c2221ea61a04ac3fba3c') in 0.001077 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.418653 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Lighting.hlsl
+  artifactKey: Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Lighting.hlsl using Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b81bc33d0993271f6c28ec5561b9f551') in 0.000777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.620940 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Lighting.hlsl
+  artifactKey: Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Lighting.hlsl using Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f65b6eebd90aed642b8babc51a535c7b') in 0.000870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 44.473673 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Lighting.hlsl
+  artifactKey: Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Lighting.hlsl using Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4736b060fbe4d819aa5475319e24f5b8') in 0.000789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 51.565459 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Lighting.hlsl
+  artifactKey: Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Lighting.hlsl using Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8f3733fe60755e7ac93f114ea9b01bf8') in 0.000796 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 120.788831 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Lighting.hlsl
+  artifactKey: Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Lighting.hlsl using Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1198951799c5bb3979c8716cb3e698de') in 0.000828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 77.293156 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Lighting.hlsl
+  artifactKey: Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Lighting.hlsl using Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c18018c1c3cc0daa5d8c682dc6302b39') in 0.000809 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 206.941495 seconds.
+  path: Assets/Content/Material/Opaque.mat
+  artifactKey: Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Material/Opaque.mat using Guid(2848b3dd5cf22d641b4b95978d991ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0a918799fdef2e6340e6333d22448c69') in 0.034723 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 866.746714 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Lighting 1.hlsl
+  artifactKey: Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Lighting 1.hlsl using Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '454f1c13aff8c43f6bc0e63d322db8f8') in 0.000857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.514522 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Light.hlsl
+  artifactKey: Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Light.hlsl using Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '156e91989dcdfb1ff342e37f3f62b5dd') in 0.000627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 57.902939 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Light.hlsl
+  artifactKey: Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Light.hlsl using Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e6a80a02ff424aa1997aaa755815155b') in 0.000889 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 27.896994 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Light.hlsl
+  artifactKey: Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Light.hlsl using Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b038fa52ef948fed70c74cfa97cb86a1') in 0.000671 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 66.934356 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Light.hlsl
+  artifactKey: Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Light.hlsl using Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4d00d445f2adf64449e0af8ee4b8646f') in 0.000883 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 539.073638 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Light.hlsl
+  artifactKey: Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Light.hlsl using Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9a3f6c08f79e190de71c7069e065cd63') in 0.001161 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 55.648833 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Lighting.hlsl
+  artifactKey: Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Lighting.hlsl using Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c415010899da0d18eb4931c996c258c6') in 0.001358 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 37.488009 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Lighting.hlsl
+  artifactKey: Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Lighting.hlsl using Guid(c98eeb0750b30e246b10515e2ed467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1c772a55708b7c40f791363b537fccd8') in 0.000876 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 34.954716 seconds.
+  path: Assets/Custom RP/ShaderLibrary/Light.hlsl
+  artifactKey: Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom RP/ShaderLibrary/Light.hlsl using Guid(9a8484567492c054e96a9d8a9d6dd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '07b979ce110a928f2b2d1bf318c5ad53') in 0.000886 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
