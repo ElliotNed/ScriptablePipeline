@@ -13,7 +13,8 @@ public partial class CameraRenderer
 
     CullingResults cullingResults;
 
-    static ShaderTagId supportedShaderTagId = new ShaderTagId("SRPDefaultUnlit"); //we only support unlit shaders
+    static ShaderTagId UnlitShaderTagId = new ShaderTagId("SRPDefaultUnlit");
+    static ShaderTagId LitPassShaderTagId = new ShaderTagId("CustomLit");
 
     public void Render(ScriptableRenderContext context, Camera camera, bool useGpuInstancing, bool useDynamicBatching)
     {
@@ -38,11 +39,12 @@ public partial class CameraRenderer
         //render opaque
         var filteringSettings = new FilteringSettings(RenderQueueRange.opaque);
         var sortingSettings = new SortingSettings(camera) { criteria = SortingCriteria.CommonOpaque };
-        var drawingSettings = new DrawingSettings(supportedShaderTagId, sortingSettings)
+        var drawingSettings = new DrawingSettings(UnlitShaderTagId, sortingSettings)
         {
             enableInstancing = useGpuInstancing,
             enableDynamicBatching = useDynamicBatching
         };
+        drawingSettings.SetShaderPassName(1, LitPassShaderTagId); //adding support to lit shader
         context.DrawRenderers(cullingResults, ref drawingSettings, ref filteringSettings);
 
         context.DrawSkybox(camera);
