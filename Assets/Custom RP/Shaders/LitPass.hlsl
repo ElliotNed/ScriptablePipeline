@@ -15,6 +15,7 @@ struct Attributes
 {
     float3 positionOS : POSITION;
     float2 baseUV : TEXCOORD0;
+    float3 normalOS : NORMAL;
     UNITY_VERTEX_INPUT_INSTANCE_ID
 };
 
@@ -22,6 +23,7 @@ struct Varyings
 {
     float4 positionCS : SV_POSITION;
     float2 baseUV : VAR_BASE_UV;
+    float3 normalWS : NORMAL;
     UNITY_VERTEX_INPUT_INSTANCE_ID
 };
 
@@ -35,6 +37,9 @@ Varyings LitPassVertex(Attributes input)
 
     float4 baseST = UNITY_ACCESS_INSTANCED_PROP(UnityPerMaterial, _BaseMap_ST);
     output.baseUV = input.baseUV + baseST.xy + baseST.zw;
+
+    output.normalWS = TransformObjectToWorldNormal(input.normalOS);
+
     return output;
 }
 
