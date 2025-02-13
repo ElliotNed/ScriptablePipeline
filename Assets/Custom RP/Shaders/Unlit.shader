@@ -18,6 +18,7 @@ Shader "Unlit/Unlit"
             ZWrite [_ZWrite]
             
             HLSLPROGRAM
+            #pragma target 3.5
 
             #pragma shader_feature _CLIPPING
             #pragma multi_compile_instancing
