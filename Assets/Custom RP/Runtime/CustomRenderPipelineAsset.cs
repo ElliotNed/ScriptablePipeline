@@ -11,9 +11,12 @@ public class CustomRenderPipelineAsset : RenderPipelineAsset
         useGpuInstancing = true,
         useDynamicBatching = true,
         useSrpBatcher = true;
+    
+    [SerializeField]
+    ShadowSettings shadowSettings = default;
 
     protected override RenderPipeline CreatePipeline()
     {
-        return new CustomRenderPipeline(useGpuInstancing, useDynamicBatching, useSrpBatcher);
+        return new CustomRenderPipeline(useGpuInstancing, useDynamicBatching, useSrpBatcher, shadowSettings);
     }
 }

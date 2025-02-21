@@ -6,14 +6,16 @@ using UnityEngine.Rendering;
 public class CustomRenderPipeline : RenderPipeline
 {
     CameraRenderer renderer = new CameraRenderer();
+    private ShadowSettings shadowSettings;
     private bool _useGpuInstancing, _useDynamicBatching;
 
-    public CustomRenderPipeline(bool useGpuInstancing, bool useDynamicBatching, bool useSrpBatcher)
+    public CustomRenderPipeline(bool useGpuInstancing, bool useDynamicBatching, bool useSrpBatcher, ShadowSettings shadowSettings)
     {
         _useGpuInstancing = useGpuInstancing;
         _useDynamicBatching = useDynamicBatching;
         GraphicsSettings.useScriptableRenderPipelineBatching = useSrpBatcher;
         GraphicsSettings.lightsUseLinearIntensity = true;
+        this.shadowSettings = shadowSettings;
     }
 
     protected override void Render(ScriptableRenderContext conext, Camera[] cameras)
@@ -24,7 +26,7 @@ public class CustomRenderPipeline : RenderPipeline
     {
         foreach (Camera camera in cameras)
         {
-            renderer.Render(context, camera, _useGpuInstancing, _useDynamicBatching);
+            renderer.Render(context, camera, _useGpuInstancing, _useDynamicBatching, shadowSettings);
         }
     }
 }

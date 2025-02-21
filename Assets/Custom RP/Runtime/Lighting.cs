@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using Unity.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -19,12 +20,15 @@ public class Lighting
         dirLightDirections = new Vector4[maxDirLightCount];
     
     private CullingResults _cullingResults;
+    private Shadows _shadows = new Shadows();
     
-    public void Setup(ScriptableRenderContext context, CullingResults cullingResults)
+    public void Setup(ScriptableRenderContext context, CullingResults cullingResults, ShadowSettings shadowSettings)
     {
         _cullingResults = cullingResults;
         buffer.BeginSample(bufferName);
+        _shadows.Setup(context, cullingResults, shadowSettings);
         SetupLights();
+        _shadows.Render();
         buffer.EndSample(bufferName);
         context.ExecuteCommandBuffer(buffer);
         buffer.Clear();
@@ -53,5 +57,11 @@ public class Lighting
     {
         dirLightColors[index] = light.finalColor;
         dirLightDirections[index] = -light.localToWorldMatrix.GetColumn(2);
+        _shadows.ReserveDirectionalShadows(light.light, index);
+    }
+
+    public void Cleanup()
+    {
+        _shadows.Cleanup();
     }
 }

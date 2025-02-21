@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: CustomRP
   m_EditorClassIdentifier: 
   useGpuInstancing: 1
-  useDynamicBatching: 1
+  useDynamicBatching: 0
   useSrpBatcher: 1
