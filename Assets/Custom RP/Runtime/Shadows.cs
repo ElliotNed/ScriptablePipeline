@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -63,7 +64,28 @@ public class Shadows
         buffer.GetTemporaryRT(_dirShadowAtlasId, atlasSize, atlasSize, 32, FilterMode.Bilinear, RenderTextureFormat.Shadowmap);
         buffer.SetRenderTarget(_dirShadowAtlasId, RenderBufferLoadAction.DontCare, RenderBufferStoreAction.Store);
         buffer.ClearRenderTarget(true, false, Color.clear);
+        buffer.BeginSample(bufferName);
         ExecuteBuffer();
+        
+        for (int i = 0; i < _shadowedDirectionalLightCount; i++)
+        {
+            RenderDirectionalShadows(i, atlasSize);
+        }
+        buffer.EndSample(bufferName);
+        ExecuteBuffer();
+    }
+
+    private void RenderDirectionalShadows(int index, int atlasSize)
+    {
+        ShadowedDirectionalLight light = _shadowedDirectionalLights[index];
+        var shadowSettings = new ShadowDrawingSettings(_cullingResults, _shadowedDirectionalLights[index].VisibleLightIndex, BatchCullingProjectionType.Orthographic);
+        _cullingResults.ComputeDirectionalShadowMatricesAndCullingPrimitives(light.VisibleLightIndex, 0, 1, Vector3.zero, 32, 0f,
+            out Matrix4x4 viewMatrix, out Matrix4x4 projMatrix, out ShadowSplitData splitData);
+        shadowSettings.splitData = splitData;
+        buffer.SetViewProjectionMatrices(viewMatrix, projMatrix);
+        
+        ExecuteBuffer();
+        _context.DrawShadows(ref shadowSettings);
     }
 
     public void Cleanup()

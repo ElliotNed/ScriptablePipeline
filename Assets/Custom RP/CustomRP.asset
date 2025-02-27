@@ -15,3 +15,7 @@ MonoBehaviour:
   useGpuInstancing: 1
   useDynamicBatching: 0
   useSrpBatcher: 1
+  shadowSettings:
+    MaxDistance: 10
+    directional:
+      atlasSize: 1024

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.PackageManager.UI;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -27,9 +28,12 @@ public partial class CameraRenderer
 
         if (!Cull(shadowSettings))
             return;
-
-        Setup();
+        
+        buffer.BeginSample(sampleName);
+        ExecuteBuffer();
         lighting.Setup(context, cullingResults, shadowSettings);
+        buffer.EndSample(sampleName);
+        Setup();
         DrawVisibleGeometry(useGpuInstancing, useDynamicBatching);
         DrawUnspportedShaders();
         DrawGizmos();
