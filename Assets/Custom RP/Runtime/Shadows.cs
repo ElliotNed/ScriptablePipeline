@@ -13,7 +13,7 @@ public class Shadows
     private ShadowSettings _shadowSettings;
     private CullingResults _cullingResults;
 
-    private const int _maxShadowedDirectionalLightCount = 1;
+    private const int _maxShadowedDirectionalLightCount = 4;
     private int _shadowedDirectionalLightCount;
     private ShadowedDirectionalLight[] _shadowedDirectionalLights = new ShadowedDirectionalLight[_maxShadowedDirectionalLightCount];
     
@@ -66,26 +66,37 @@ public class Shadows
         buffer.ClearRenderTarget(true, false, Color.clear);
         buffer.BeginSample(bufferName);
         ExecuteBuffer();
+
+        int split = _shadowedDirectionalLightCount <= 1 ? 1 : 2;
+        int tileSize = atlasSize / split;
         
         for (int i = 0; i < _shadowedDirectionalLightCount; i++)
         {
-            RenderDirectionalShadows(i, atlasSize);
+            RenderDirectionalShadows(i, split, tileSize);
         }
         buffer.EndSample(bufferName);
         ExecuteBuffer();
     }
 
-    private void RenderDirectionalShadows(int index, int atlasSize)
+    private void RenderDirectionalShadows(int index, int split, int tileSize)
     {
         ShadowedDirectionalLight light = _shadowedDirectionalLights[index];
         var shadowSettings = new ShadowDrawingSettings(_cullingResults, _shadowedDirectionalLights[index].VisibleLightIndex, BatchCullingProjectionType.Orthographic);
         _cullingResults.ComputeDirectionalShadowMatricesAndCullingPrimitives(light.VisibleLightIndex, 0, 1, Vector3.zero, 32, 0f,
             out Matrix4x4 viewMatrix, out Matrix4x4 projMatrix, out ShadowSplitData splitData);
         shadowSettings.splitData = splitData;
+        
+        SetTileViewPort(index, split, tileSize);
         buffer.SetViewProjectionMatrices(viewMatrix, projMatrix);
         
         ExecuteBuffer();
         _context.DrawShadows(ref shadowSettings);
+    }
+
+    private void SetTileViewPort(int index, int split, float tileSize)
+    {
+        Vector2 offset = new Vector2(index % split, index / split);
+        buffer.SetViewport(new Rect(offset.x * tileSize, offset.y * tileSize, tileSize, tileSize));
     }
 
     public void Cleanup()
